@@ -33,19 +33,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			  <exclusions>
-        <exclusion>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-        </exclusion>
-    </exclusions>
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/com.braintreepayments.gateway/braintree-java -->
 <dependency>
     <groupId>com.braintreepayments.gateway</groupId>
     <artifactId>braintree-java</artifactId>
-    <version>2.22.2</version>
+    <version>2.98.0</version>
 </dependency>
 
 <dependency>

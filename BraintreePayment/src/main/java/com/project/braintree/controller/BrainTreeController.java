@@ -7,10 +7,20 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Controller
 public class BrainTreeController {
+	
+	@RequestMapping("/")
+	public String payment() {
+		return "index";
+	}
 
-	@RequestMapping("/braintree")
-	//@ResponseBody
+	@RequestMapping("/payment")
 	public String printHelloWorld() {
 		return "braintree";
 	}
+	
+	@RequestMapping("/transaction")
+	public String paymentForm() {
+		return "index";
+	}
+	
 }
